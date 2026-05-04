@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: resttemplateserver-hub
-          image: doenini/resttemplateserver-hub:e14a52eaeaf0b3ffc2b5ffc9b7aa9d9bd5459824
+          image: doenini/resttemplateserver-hub:485da1b13aad5539d807c6f244b0b2541e595a47
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
