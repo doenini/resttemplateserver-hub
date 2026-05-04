@@ -51,7 +51,7 @@ public class BookController {
 		Book existingBook = bookRepository.findById(id)
 			.orElseThrow(() -> new ResponseStatusException(NOT_FOUND, "Book not found: " + id));
 
-		existingBook.setName(book.getName());
+		existingBook.setTitle(book.getTitle());
 		existingBook.setAuthor(book.getAuthor());
 		existingBook.setPrice(book.getPrice());
 
